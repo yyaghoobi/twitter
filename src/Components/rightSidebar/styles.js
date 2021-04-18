@@ -29,6 +29,10 @@ const useStyles = makeStyles((theme) => ({
     marginRight: "0.8rem",
   },
 
+  hashtagImg: {
+    width: "20px",
+  },
+
   hashTagParent: {
     marginBottom: "0.5rem !important",
     padding: "0.15rem !important",

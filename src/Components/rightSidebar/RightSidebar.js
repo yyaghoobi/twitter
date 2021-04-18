@@ -4,14 +4,14 @@ import useStyle from "./styles";
 import { ButtonBase, Grid } from "@material-ui/core";
 
 const hashTags = [
-  "#پرچمـدارـجدید",
-  "#ویروسـکرونا",
-  "#سامسونگ",
-  "#هلوـسامر",
-  "#‍پرچمـدارـجدید",
-  "#ویروسـکرونا",
-  "#سامسونگ",
-  "#هلوـسامر",
+  "پرچمـدارـجدید",
+  "ویروسـکرونا",
+  "سامسونگ",
+  "هلوـسامر",
+  "‍پرچمـدارـجدید",
+  "ویروسـکرونا",
+  "سامسونگ",
+  "هلوـسامر",
 ];
 
 const RightSidebar = () => {
@@ -27,11 +27,16 @@ const RightSidebar = () => {
           <Typography className={classes.logoType}>توییتر فارسی</Typography>
         </Grid>
       </Grid>
-      <Typography className={classes.hashTagTitle}>داع ترین هشتگ ها</Typography>
+      <Typography className={classes.hashTagTitle}>داغ ترین هشتگ ها</Typography>
       <Grid container direction={"column"} alignItems={"center"}>
         {hashTags.map((item) => (
           <ButtonBase className={classes.hashTagParent}>
             <Grid item container>
+              <img
+                src={"images/hashtag.png"}
+                alt={"hashtag"}
+                className={classes.hashtagImg}
+              />
               <Typography className={classes.hashtag}>{item}</Typography>
             </Grid>
           </ButtonBase>
