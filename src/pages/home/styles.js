@@ -38,6 +38,21 @@ const useStyles = makeStyles({
 
   input: {
     marginRight: "1rem",
+    border: "none",
+    flex: 1,
+    "&:focus": {
+      outline: "unset",
+    },
+  },
+
+  newTweetBtn: {
+    color: "white !important",
+    borderRadius: "1rem !important",
+    minHeight: "30px !important",
+    height: "30px !important",
+    fontFamily: "Shabnam !important",
+    lineHeight: "1rem !important",
+    minWidth: "5rem !important",
   },
 });
 
