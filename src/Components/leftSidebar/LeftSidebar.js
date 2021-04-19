@@ -56,11 +56,7 @@ const LeftSidebar = () => {
   return (
     <div className={classes.root}>
       <Grid container direction="row-reverse">
-        <img
-          src="images/user img.png"
-          alt="user img"
-          className={classes.profImg}
-        />
+        <img src="images/User.png" alt="user img" className={classes.profImg} />
         <Grid item container direction="column" className={classes.profText}>
           <Typography className={classes.profName}>یسنا یعقوبی </Typography>
           <Typography className={classes.profId}>Yasna.Yaghoobi</Typography>
